@@ -1,0 +1,55 @@
+
+$content-front-size: 2.3rem;
+
+.LandingPage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    &_logo{
+        font-family: 'Montserrat', sans-serif;
+        transition: color 1s ease-in-out;
+        text-decoration: none;
+        color: inherit;
+    }
+    &_logo:hover{
+        color: #CE7967;
+    }
+    &_content{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        a{
+            text-decoration: none;
+            color: inherit;
+            font-size: $content-front-size;
+            cursor: pointer;
+            transition: color 1s ease-in-out;
+        }
+        a:hover{
+            color: #CE7967;
+        }
+    }
+    &_footer{
+        border-top: 2px inherit solid;
+        font-family: 'Poppins', sans-serif;
+        a{
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+            transition: color 1s ease-in-out;
+        }
+        a:hover{
+            color: #9C7598;
+        }
+        img{
+            height: 1.5rem;
+            margin-right: 1rem;
+            cursor: pointer;
+        }
+    }
+
+}   
+
