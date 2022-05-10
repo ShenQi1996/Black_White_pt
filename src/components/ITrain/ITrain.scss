@@ -1,0 +1,46 @@
+.ITrain{
+    background-color: #CE7967;
+    color: #131313;
+    overflow: hidden;
+
+    p{
+        font-size: 1.4rem;
+    }
+
+    &_upText{
+        h1{
+            font-size: 6rem;
+            white-space: nowrap;
+            text-transform: uppercase;
+            animation: movingTextStart 10s infinite linear;
+        }
+    }
+
+    &_downText{
+        transform: rotate(-180deg);
+        h1{
+            font-size: 6rem;
+            white-space: nowrap;
+            text-transform: uppercase;
+            color: #F2ECFF;
+            animation: movingTextStart 10s infinite linear;
+        }
+    }
+
+    &_btn{
+        border-radius: 2rem;
+        text-transform: uppercase;
+    }
+
+    @keyframes movingTextStart {
+        0%{
+            transform: translateX(0%); 
+        }
+        50% {
+            transform:translateX(-150%);
+        }
+        100%{
+            transform: translateX(0%); 
+        }
+    }
+}

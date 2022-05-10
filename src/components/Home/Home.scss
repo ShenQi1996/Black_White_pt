@@ -1,9 +1,7 @@
-$my-style: 'Raleway', sans-serif;
 
 .home{
     background-color: inherit;
     color: inherit;
-    font-family: $my-style;
     &_topText{
         text-overflow: ellipsis;
         position: relative;
@@ -11,17 +9,17 @@ $my-style: 'Raleway', sans-serif;
         overflow: hidden;
         h1{
             text-transform: uppercase;
-            font-size: 3rem;
+            font-size: 4rem;
             font-family: 'Oswald', sans-serif;
-            animation: movingTextStart 20s infinite linear;;
+            animation: movingTextStart 20s infinite linear;
         }
     }
 
     &_midText{
-        font-size: 1.8rem;
+        font-size: 2rem;
         line-height: 2.5rem;
         span{
-            font-size: 2.2rem;
+            font-size: 2.5rem;
             color: #CE7967;
         }
     }
@@ -30,6 +28,30 @@ $my-style: 'Raleway', sans-serif;
     &_downBtn{
         border-radius: 50%;
         padding: 0.5rem 0.7rem;
+        border-color: #F2ECFF;
+    }
+
+    &_stepsBox{
+        border-top: 1px #F2ECFF solid;
+        h3{
+            margin-top: 1.5rem;
+            color: #CE7967;
+        }
+        p{
+            
+            font-size: larger;
+        }
+    }
+
+    &_GITBtn{
+        a{
+            text-transform: uppercase;
+            font-weight: bolder;
+            padding: 1rem;
+            color: #F2ECFF;
+            border-radius: 2rem;
+            border-color: #F2ECFF;
+        }
     }
 
     @keyframes movingTextStart {
@@ -37,7 +59,7 @@ $my-style: 'Raleway', sans-serif;
             transform: translateX(10%); 
         }
         50% {
-            transform:translateX(-210%);
+            transform:translateX(-460%);
         }
         100%{
             transform: translateX(10%); 

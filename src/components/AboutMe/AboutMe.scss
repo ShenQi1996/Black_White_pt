@@ -1,0 +1,24 @@
+.AboutMe{
+    h1{
+        font-size: 6rem;
+        text-transform: uppercase;
+        color: inherit;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+    }
+    &_info{
+        h2{
+            color: #CE7967;
+        }
+        p{
+            font-size: larger;
+        }
+    }
+    &_btn{
+        a{
+            img{
+                max-height: 2rem;
+            }
+        }
+    }
+}
