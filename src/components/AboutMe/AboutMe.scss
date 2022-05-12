@@ -1,4 +1,5 @@
 .AboutMe{
+    overflow: hidden;
     h1{
         font-size: 6rem;
         text-transform: uppercase;
@@ -19,6 +20,44 @@
             img{
                 max-height: 2rem;
             }
+        }
+    }
+
+    &_big{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .AboutMe{
+        h1{
+            font-size: 12rem;
+        }
+        &_big{
+            display: flex;
+            transform: rotate(-90deg);
+            white-space: nowrap;
+            position: relative;
+            right: -5%;
+            span{
+                font-size: 12rem;
+                height: 2rem;
+                text-transform: uppercase;
+                font-family: 'Raleway', sans-serif;
+                font-weight: bolder;
+            }
+        }    
+
+        &_small{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .AboutMe{
+        &_big{
+            right: 0%;
         }
     }
 }

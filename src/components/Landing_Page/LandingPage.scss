@@ -19,7 +19,7 @@ $content-front-size: 2.3rem;
         color: #CE7967;
     }
     &_content{
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Oswald', sans-serif;
         font-size: 1.5rem;
         a{
             text-decoration: none;
@@ -35,6 +35,9 @@ $content-front-size: 2.3rem;
     &_footer{
         border-top: 2px inherit solid;
         font-family: 'Poppins', sans-serif;
+        h4{
+            font-size: 1rem;
+        }
         a{
             text-decoration: none;
             color: inherit;
@@ -50,6 +53,18 @@ $content-front-size: 2.3rem;
             cursor: pointer;
         }
     }
-
+    @media only screen and (min-width: 768px){
+        &_RowTop{
+            height: 100%;
+        }
+        &_content{
+            font-size: 2rem;
+            a{
+                font-size: 3rem;
+            }
+        }
+    }
 }   
+
+
 

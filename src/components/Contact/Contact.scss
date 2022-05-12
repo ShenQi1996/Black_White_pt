@@ -12,11 +12,8 @@
     }
 
     &_workhour{
-        font-size: larger;
-        h6{
-            font-size: larger;
-        }
-        h2{
+
+        h3{
             text-transform: uppercase;
         }
         span{
@@ -28,4 +25,38 @@
             color: #F2ECFF;
         }
     }
+}
+
+
+@media only screen and (min-width: 768px){
+    .Contact{
+        overflow: hidden;
+        &_upText, &_downText{
+            h1{
+                font-size: 12rem;
+            }
+        }
+
+        &_upText{
+            white-space: nowrap;
+            overflow: visible;
+            position: relative;
+            left: 20%;
+            transform: rotate(90deg);
+            padding-left: 5%;
+            margin-top: 20%;
+        }
+
+        &_downText{
+            white-space: nowrap;
+            overflow: visible;
+            margin-top: 10%;
+            text-align: center;
+        }
+
+        &_workhour{
+            text-align: center;
+        }
+    }
+
 }

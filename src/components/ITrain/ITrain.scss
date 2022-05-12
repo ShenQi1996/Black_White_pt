@@ -9,6 +9,7 @@
 
     &_upText{
         h1{
+            font-family: 'Oswald', sans-serif;
             font-size: 6rem;
             white-space: nowrap;
             text-transform: uppercase;
@@ -19,6 +20,7 @@
     &_downText{
         transform: rotate(-180deg);
         h1{
+            font-family: 'Oswald', sans-serif;
             font-size: 6rem;
             white-space: nowrap;
             text-transform: uppercase;
@@ -41,6 +43,94 @@
         }
         100%{
             transform: translateX(0%); 
+        }
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    .ITrain{
+        &_upText{
+            h1{
+                font-size: 12rem;
+                animation: movingTextStart1 20s infinite linear;
+            }
+        }
+
+        &_downText{
+            h1{
+                font-size: 12rem;
+                animation: movingTextStart1 20s infinite linear;
+            }
+        }
+        @keyframes movingTextStart1 {
+            0%{
+                transform: translateX(0%); 
+            }
+            50% {
+                transform:translateX(-160%);
+            }
+            100%{
+                transform: translateX(0%); 
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .ITrain{
+
+        &_upText{
+            h1{
+                animation: movingTextStart2 20s infinite linear;
+            }
+        }
+
+        &_downText{
+            h1{
+                animation: movingTextStart2 20s infinite linear;
+            }
+        }
+    }
+
+
+    @keyframes movingTextStart2 {
+        0%{
+            transform: translateX(0%); 
+        }
+        50% {
+            transform:translateX(-95%);
+        }
+        100%{
+            transform: translateX(0%); 
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .ITrain{
+
+        &_upText{
+            h1{
+                animation: movingTextStart3 20s infinite linear;
+            }
+        }
+
+        &_downText{
+            h1{
+                animation: movingTextStart3 20s infinite linear;
+            }
+        }
+        @keyframes movingTextStart3 {
+            0%{
+                transform: translateX(0%); 
+            }
+            50% {
+                transform:translateX(-20%);
+            }
+            100%{
+                transform: translateX(0%); 
+            }
         }
     }
 }

@@ -9,24 +9,30 @@ import "./ITrain.scss";
 
 const ITrain = () => {
   return (
-    <Container className="ITrain">
-      <Row className="gy-5 my-5">
+    <Container fluid className="ITrain">
+      <Row className="pt-5 gy-5">
         <Col xs={12} className="ITrain_upText">
           <h1>How I like to train</h1>
         </Col>
-        <Col xs={12}>
+        <Col md={{ span: 9, offset: 2 }} xs={12}>
           <Container>
             <p>
               Let's talk about how I like to train. I mainly focus on form and
-              use lightweight and low temple excuses. We can focus more on
-              getting the right muscle to contract by performing excuses using
-              the lighter-weight and low temple.
+              use lightweight and slow-tempo excuses. We can focus more on
+              getting the right muscle to contract by using the lighter-weight
+              and slow tempo.
             </p>
           </Container>
         </Col>
-        <Col>
-          <Container className=" d-flex flex-column">
-            <a className="p-3 btn btn-dark  ITrain_btn" href="#" role="button">
+        <Col md={{ span: 8, offset: 2 }}>
+          <Container className="d-flex flex-column" id="ITrain" name="ITrain">
+            <a
+              className="p-3 mx-5 btn btn-dark  ITrain_btn"
+              href="https://vahvafitness.com/slow-tempo-workout/"
+              target="_blank"
+              rel="noreferrer"
+              role="button"
+            >
               Learn More {`>`}
             </a>
           </Container>

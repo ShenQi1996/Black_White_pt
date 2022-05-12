@@ -12,29 +12,29 @@ const LandingPage = ({ setLandingPage }) => {
   };
 
   return (
-    <Container fluid className="p-3 LandingPage">
-      <Row className="p-3">
+    <Container className="p-3 LandingPage">
+      <Row className="p-3 LandingPage_RowTop">
         <Col xs={12}>
           <h1 onClick={handlelandingpage} className="LandingPage_logo">
             SQ.fit -
           </h1>
         </Col>
         <Col className="gy-2 LandingPage_content">
-          <a onClick={handlelandingpage} href="#">
+          <a onClick={handlelandingpage} href="#Home">
             Let's Get Started it!{" "}
           </a>
           or,
-          <a onClick={handlelandingpage} href="#">
+          <a onClick={handlelandingpage} href="#AboutMe">
             {" "}
             Get to know me,{" "}
           </a>
           find out
-          <a onClick={handlelandingpage} href="#">
+          <a onClick={handlelandingpage} href="#ITrain">
             {" "}
             how I like to train,{" "}
           </a>
           and
-          <a onClick={handlelandingpage} href="#">
+          <a onClick={handlelandingpage} href="#footer">
             {" "}
             what workout regimen{" "}
           </a>
@@ -42,33 +42,52 @@ const LandingPage = ({ setLandingPage }) => {
         </Col>
       </Row>
       <Row xs={4} className="mx-1 pt-2 LandingPage_footer">
-        <Col md={9} xs={12}>
+        <Col md={10} xs={12}>
           <h4>
-            Get in touch: <a href="/"> calender</a>
+            Get in touch:{" "}
+            <a
+              href="mailto:qisam1989@gmail.com?subject=personal_training"
+              target="_blank"
+              rel="noreferrer"
+            >
+              qisam1989@gmail.com
+            </a>
           </h4>
         </Col>
-        <Col md={2} xs={5} className="pb-2 d-flex justify-content-start">
-          <a target="_blank" href="/">
+        <Col md={12} xs={5} className="pb-2 d-flex justify-content-start">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/shenqi1993/"
+            rel="noreferrer"
+          >
             <img
               src="https://img.icons8.com/ios/50/ffffff/linkedin.png"
               alt="Linkedin"
             />
           </a>
-          <a target="_blank" href="/">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/sammysocial_qi/?hl=en"
+            rel="noreferrer"
+          >
             <img
-              src="https://img.icons8.com/dotty/80/ffffff/github.png"
-              alt="Github"
+              src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"
+              alt="IG"
             />
           </a>
-          <a target="_blank" href="/">
+          <a
+            target="_blank"
+            href="https://calendly.com/qisam/meetingwithsam"
+            rel="noreferrer"
+          >
             <img
-              src="https://img.icons8.com/pastel-glyph/64/ffffff/website--v1.png"
-              alt="Personal Website"
+              src="https://img.icons8.com/ios-glyphs/30/ffffff/calendar.png"
+              alt="Calendly"
             />
           </a>
         </Col>
-        <Col md={1} xs={12} className="">
-          <h6>@ 2022</h6>
+        <Col md={12} xs={12} className="">
+          <h4>@ 2022 SQ.fit</h4>
         </Col>
       </Row>
     </Container>

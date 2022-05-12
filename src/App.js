@@ -6,6 +6,9 @@ import Home from "./components/Home/Home";
 import AboutMe from "./components/AboutMe/AboutMe";
 import ITrain from "./components/ITrain/ITrain";
 import Contact from "./components/Contact/Contact";
+
+//Bootstrap
+import Container from "react-bootstrap/Container";
 //Style
 import "./App.scss";
 
@@ -19,6 +22,11 @@ function App() {
           <AboutMe />
           <ITrain />
           <Contact />
+          <footer className="my-5" id="footer">
+            <Container className="my-3 d-flex justify-content-center">
+              <h6>@ 2022 BY SQ.fit</h6>
+            </Container>
+          </footer>
         </>
       ) : (
         <LandingPage setLandingPage={setLandingPage} />
