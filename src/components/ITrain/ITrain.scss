@@ -13,7 +13,7 @@
             font-size: 6rem;
             white-space: nowrap;
             text-transform: uppercase;
-            animation: movingTextStart 10s infinite linear;
+            animation: movingTextITrain 10s infinite linear;
         }
     }
 
@@ -25,7 +25,7 @@
             white-space: nowrap;
             text-transform: uppercase;
             color: #F2ECFF;
-            animation: movingTextStart 10s infinite linear;
+            animation: movingTextITrain 10s infinite linear;
         }
     }
 
@@ -34,7 +34,7 @@
         text-transform: uppercase;
     }
 
-    @keyframes movingTextStart {
+    @keyframes movingTextITrain {
         0%{
             transform: translateX(0%); 
         }
@@ -53,25 +53,25 @@
         &_upText{
             h1{
                 font-size: 12rem;
-                animation: movingTextStart1 20s infinite linear;
+                animation: movingTextITrain1 20s infinite linear;
             }
         }
 
         &_downText{
             h1{
                 font-size: 12rem;
-                animation: movingTextStart1 20s infinite linear;
+                animation: movingTextITrain1 20s infinite linear;
             }
         }
-        @keyframes movingTextStart1 {
+        @keyframes movingTextITrain1 {
             0%{
-                transform: translateX(0%); 
+                transform: translateX(10%); 
             }
             50% {
-                transform:translateX(-160%);
+                transform:translateX(-100%);
             }
             100%{
-                transform: translateX(0%); 
+                transform: translateX(10%); 
             }
         }
     }
@@ -82,19 +82,19 @@
 
         &_upText{
             h1{
-                animation: movingTextStart2 20s infinite linear;
+                animation: movingTextITrain2 20s infinite linear;
             }
         }
 
         &_downText{
             h1{
-                animation: movingTextStart2 20s infinite linear;
+                animation: movingTextITrain2 20s infinite linear;
             }
         }
     }
 
 
-    @keyframes movingTextStart2 {
+    @keyframes movingTextITrain2 {
         0%{
             transform: translateX(0%); 
         }
@@ -112,24 +112,24 @@
 
         &_upText{
             h1{
-                animation: movingTextStart3 20s infinite linear;
+                animation: movingTextITrain3 10s infinite linear;
             }
         }
 
         &_downText{
             h1{
-                animation: movingTextStart3 20s infinite linear;
+                animation: movingTextITrain3 10s infinite linear;
             }
         }
-        @keyframes movingTextStart3 {
+        @keyframes movingTextITrain3 {
             0%{
-                transform: translateX(0%); 
+                transform: translateX(20%); 
             }
             50% {
-                transform:translateX(-20%);
+                transform:translateX(-10%);
             }
             100%{
-                transform: translateX(0%); 
+                transform: translateX(20%); 
             }
         }
     }

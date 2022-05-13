@@ -12,14 +12,12 @@ const LandingPage = ({ setLandingPage }) => {
   };
 
   return (
-    <Container className="p-3 LandingPage">
+    <Container fluid className="fadeAway p-3 LandingPage">
       <Row className="p-3 LandingPage_RowTop">
         <Col xs={12}>
-          <h1 onClick={handlelandingpage} className="LandingPage_logo">
-            SQ.fit -
-          </h1>
+          <h1 className="LandingPage_logo">SQ.fit -</h1>
         </Col>
-        <Col className="gy-2 LandingPage_content">
+        <Col xl={9} className="gy-2 LandingPage_content">
           <a onClick={handlelandingpage} href="#Home">
             Let's Get Started it!{" "}
           </a>

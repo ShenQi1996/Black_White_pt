@@ -25,7 +25,6 @@ $content-front-size: 2.3rem;
             text-decoration: none;
             color: inherit;
             font-size: $content-front-size;
-            cursor: pointer;
             transition: color 1s ease-in-out;
         }
         a:hover{
@@ -33,7 +32,7 @@ $content-front-size: 2.3rem;
         }
     }
     &_footer{
-        border-top: 2px inherit solid;
+        border-top: 2px #F2ECFF solid;
         font-family: 'Poppins', sans-serif;
         h4{
             font-size: 1rem;
@@ -41,11 +40,10 @@ $content-front-size: 2.3rem;
         a{
             text-decoration: none;
             color: inherit;
-            cursor: pointer;
             transition: color 1s ease-in-out;
         }
         a:hover{
-            color: #9C7598;
+            color: #CE7967;
         }
         img{
             height: 1.5rem;
@@ -60,11 +58,27 @@ $content-front-size: 2.3rem;
         &_content{
             font-size: 2rem;
             a{
-                font-size: 3rem;
+                font-size: 4rem;
             }
         }
     }
-}   
+}
+
+.fadeAway{
+    animation: fade 2s linear;
+
+    @keyframes fade {
+        0%{
+            opacity: 0%;
+        }
+        50%{
+            opacity: 50%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+}
 
 
 
