@@ -32,10 +32,10 @@ const AboutMe = () => {
           <h1>- Me</h1>
         </Col>
         <Col
-          lg={{ span: 5, offset: 3 }}
+          lg={{ span: 5, offset: 2 }}
           md={{ span: 7, offset: 2 }}
           xs={12}
-          className="d-flex flex-column p-4"
+          className="d-flex flex-column p-4 AboutMe_img"
         >
           <img src={profile} alt="Sam Qi" />
         </Col>
@@ -47,14 +47,15 @@ const AboutMe = () => {
             <h2>Shen(Sam) Qi</h2>
             <h5>Certified Personal Trainer</h5>
             <p>
-              Hi, My name is Sam Qi, a certified personal trainer with Blink
-              Fitness at Park Slope. I am here to help you learn to enjoy your
-              gym time and progress toward your goals.
+              Hi, My name is Sam Qi, I am a person that loves developing,
+              designing and delivering software and websites used by all kinds
+              of businesses
             </p>
             <p>
-              To help you get on the right track with your fitness journey, I am
-              here to offer you a free personal training start-up assessment
-              session.
+              A proven leader with many years of experience who is driven to
+              make the world a better place one solution at a time and create a
+              personal brand that people remember me, build things that
+              represent me, and appreciate people who helped me.
             </p>
           </Container>
         </Col>

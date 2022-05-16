@@ -15,28 +15,28 @@ const LandingPage = ({ setLandingPage }) => {
     <Container fluid className="fadeAway p-3 LandingPage">
       <Row className="p-3 LandingPage_RowTop">
         <Col xs={12}>
-          <h1 className="LandingPage_logo">SQ.fit -</h1>
+          <h1 className="LandingPage_logo">SQ.web -</h1>
         </Col>
         <Col xl={9} className="gy-2 LandingPage_content">
+          Hi ! Welcome to{" "}
           <a onClick={handlelandingpage} href="#Home">
-            Let's Get Started it!{" "}
+            my portfolio.{" "}
           </a>
-          or,
+          My name is
           <a onClick={handlelandingpage} href="#AboutMe">
             {" "}
-            Get to know me,{" "}
+            Sam.{" "}
           </a>
-          find out
+          I am a
           <a onClick={handlelandingpage} href="#ITrain">
             {" "}
-            how I like to train,{" "}
+            developer and designer{" "}
           </a>
-          and
+          for the web.
           <a onClick={handlelandingpage} href="#footer">
             {" "}
-            what workout regimen{" "}
+            Let's connect with me.{" "}
           </a>
-          would best fits you.
         </Col>
       </Row>
       <Row xs={4} className="mx-1 pt-2 LandingPage_footer">
@@ -85,7 +85,7 @@ const LandingPage = ({ setLandingPage }) => {
           </a>
         </Col>
         <Col md={12} xs={12} className="">
-          <h4>@ 2022 SQ.fit</h4>
+          <h4>@ 2022 SQ.web</h4>
         </Col>
       </Row>
     </Container>

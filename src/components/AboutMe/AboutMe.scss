@@ -11,6 +11,9 @@
         h2{
             color: #CE7967;
         }
+        h5{
+            margin-bottom: 1rem;
+        }
         p{
             font-size: larger;
         }
@@ -25,6 +28,16 @@
 
     &_big{
         display: none;
+    }
+
+    &_img{
+        margin-top: 2rem;
+        align-items: flex-start;
+        img{
+            object-fit: contain;
+            height: 100%;
+            width: 100%;
+        }
     }
 }
 
@@ -48,6 +61,7 @@
             }
         }    
 
+
         &_small{
             display: none;
         }
@@ -57,7 +71,12 @@
 @media only screen and (min-width: 1024px){
     .AboutMe{
         &_big{
-            right: 0%;
+            right: -5%;
+        }
+        &_img{
+            margin-top: 2rem;
         }
     }
+
+
 }

@@ -5,6 +5,7 @@ $base-color: #F2ECFF;
     background-color: #131313;
     color: $base-color;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
     cursor: url(./images/icons8-computer-mouse-50.png), auto;
     a{
         cursor: url(./images/icons8-left-click-50.png), pointer;

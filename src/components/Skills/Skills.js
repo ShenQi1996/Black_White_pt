@@ -5,13 +5,13 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/esm/Row";
 import Container from "react-bootstrap/esm/Container";
 //style
-import "./ITrain.scss";
+import "./Skills.scss";
 
 const ITrain = () => {
   return (
-    <Container fluid className="ITrain">
+    <Container fluid className=" Skills">
       <Row className="pt-5 gy-5">
-        <Col xs={12} className="ITrain_upText">
+        <Col xs={12} className="Skills_upText">
           <h1>How I like to train</h1>
         </Col>
         <Col md={{ span: 9, offset: 2 }} xs={12}>
@@ -25,9 +25,9 @@ const ITrain = () => {
           </Container>
         </Col>
         <Col md={{ span: 8, offset: 2 }}>
-          <Container className="d-flex flex-column" id="ITrain" name="ITrain">
+          <Container className="d-flex flex-column" id="Skills">
             <a
-              className="p-3 mx-5 btn btn-dark  ITrain_btn"
+              className="p-3 mx-5 btn btn-dark  Skills_btn"
               href="https://vahvafitness.com/slow-tempo-workout/"
               target="_blank"
               rel="noreferrer"
@@ -37,7 +37,7 @@ const ITrain = () => {
             </a>
           </Container>
         </Col>
-        <Col xs={12} className="my-5 ITrain_downText">
+        <Col xs={12} className="my-5 Skills_downText">
           <h1>How I like to train</h1>
         </Col>
       </Row>

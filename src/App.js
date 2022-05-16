@@ -4,7 +4,7 @@ import { useState } from "react";
 import LandingPage from "./components/Landing_Page/LandingPage";
 import Home from "./components/Home/Home";
 import AboutMe from "./components/AboutMe/AboutMe";
-import ITrain from "./components/ITrain/ITrain";
+import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 
 //Bootstrap
@@ -20,7 +20,7 @@ function App() {
         <>
           <Home />
           <AboutMe />
-          <ITrain />
+          <Skills />
           <Contact />
           <footer className="my-5" id="footer">
             <Container className="my-3 d-flex justify-content-center">

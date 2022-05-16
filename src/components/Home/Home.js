@@ -21,7 +21,7 @@ const Home = () => {
           <Col md={8} className="d-flex flex-column ">
             <Container className="home_midText my-5">
               <p>
-                When it comes to workouts.
+                When it comes to Web-Development.
                 <span> Don't work harder, work smarter.</span> Check out how I
                 do it.
               </p>
@@ -43,39 +43,38 @@ const Home = () => {
         <Row className="gy-3 my-3">
           <Col md={8} xs={12}>
             <Container className="home_stepsBox" id="Steps">
-              <h3>Let's Identify our Goals</h3>
+              <h3>Information Gathering</h3>
               <p className="py-2">
-                Setting goals gives you vision and motivation in life. They help
-                you organize your time and resources to make the most out of
-                your life.
+                I seek to understand your business and unpack the project goals
+                in this phase.
               </p>
             </Container>
           </Col>
           <Col md={8} xs={12}>
             <Container className="home_stepsBox">
-              <h3>Let's Talk Strategy</h3>
+              <h3>Strategy</h3>
               <p className="py-2">
-                After identifying what aspects of life you want to set goals
-                for, you need to establish a time frame that works with each
-                goal.
+                Once I understand the business and the project goals. We will
+                work together to brainstorm and scope out a plan.
               </p>
             </Container>
           </Col>
           <Col md={8} xs={12}>
             <Container className="home_stepsBox">
-              <h3>Let's Correct our Forms</h3>
+              <h3>Design</h3>
               <p className="py-2">
-                Proper form helps you work out more efficiently so you can use
-                your energy for the extra push rather than wasted movements.
+                After we have defined the scope of the work, your product takes
+                shape by translating all the data and research into visual
+                components.
               </p>
             </Container>
           </Col>
           <Col md={8} xs={12}>
             <Container className="home_stepsBox">
-              <h3>Let's Get Results</h3>
+              <h3>Deliver</h3>
               <p className="py-2">
-                Improper form may mean you are targeting unintended muscles or
-                muscle groups. The better your form the better your results
+                I will use my developer skills and designer skills to bring the
+                project to life.
               </p>
             </Container>
           </Col>
