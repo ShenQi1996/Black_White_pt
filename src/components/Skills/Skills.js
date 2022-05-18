@@ -12,7 +12,7 @@ const ITrain = () => {
     <Container fluid className=" Skills">
       <Row className="pt-5 gy-5">
         <Col xs={12} className="Skills_upText">
-          <h1>How I like to train</h1>
+          <h1>Stops</h1>
         </Col>
         <Col md={{ span: 9, offset: 2 }} xs={12}>
           <Container>
