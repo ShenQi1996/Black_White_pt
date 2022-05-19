@@ -22,10 +22,10 @@ $content-front-size: 2.3rem;
         font-family: 'Oswald', sans-serif;
         font-size: 1.8rem;
         a{
-            text-decoration: none;
             color: inherit;
             font-size: $content-front-size;
             transition: color 1s ease-in-out;
+            text-decoration: underline;
         }
         a:hover{
             color: #CE7967;

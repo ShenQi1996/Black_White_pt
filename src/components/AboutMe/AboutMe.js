@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../../images/pro1.jpg";
+import profile from "../../images/new_pro2_cut.jpg";
 
 //Bootstrap
 import Row from "react-bootstrap/Row";
@@ -28,24 +28,27 @@ const AboutMe = () => {
         >
           <h1>About</h1>
         </Col>
-        <Col xs={12} className="text-end AboutMe_small">
+        <Col
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-sine"
+          xs={12}
+          className="text-end AboutMe_small"
+        >
           <h1>- Me</h1>
         </Col>
         <Col
           lg={{ span: 5, offset: 2 }}
           md={{ span: 7, offset: 2 }}
           xs={12}
-          className="d-flex flex-column p-4 AboutMe_img"
+          className="d-flex flex-column p-4 AboutMe_img mt-3"
         >
           <img src={profile} alt="Sam Qi" />
-        </Col>
-        <Col md={3} className="AboutMe_big">
-          <span>- Me</span>
         </Col>
         <Col lg={7} md={{ span: 9, offset: 2 }} xs={12}>
           <Container className="AboutMe_info" id="AboutMe">
             <h2>Shen(Sam) Qi</h2>
-            <h5>Certified Personal Trainer</h5>
+            <h5>Web Developer / Designer</h5>
             <p>
               Hi, My name is Sam Qi, I am a person that loves developing,
               designing and delivering software and websites used by all kinds
@@ -73,12 +76,12 @@ const AboutMe = () => {
             </a>
             <a
               target="_blank"
-              href="https://www.instagram.com/sammysocial_qi/?hl=en"
+              href="https://github.com/ShenQi1996"
               rel="noreferrer"
             >
               <img
-                src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"
-                alt="IG"
+                src="https://img.icons8.com/ios/50/ffffff/github-2.png"
+                alt="Github"
               />
             </a>
             <a

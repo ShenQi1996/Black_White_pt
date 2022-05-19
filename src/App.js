@@ -22,9 +22,9 @@ function App() {
           <AboutMe />
           <Skills />
           <Contact />
-          <footer className="my-5" id="footer">
+          <footer className="my-5">
             <Container className="my-3 d-flex justify-content-center">
-              <h6>@ 2022 BY SQ.fit</h6>
+              <h6 id="footer">@ 2022 BY SQ.web</h6>
             </Container>
           </footer>
         </>

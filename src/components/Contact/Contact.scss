@@ -1,4 +1,5 @@
 .Contact{
+    position: relative;
     &_upText, &_downText{
         h1{
             text-transform: uppercase;
@@ -10,7 +11,9 @@
     &_upText{
         text-align: right;
     }
-
+    &_img{
+        display: none;
+    }
     &_workhour{
 
         h3{
@@ -33,18 +36,16 @@
         overflow: hidden;
         &_upText, &_downText{
             h1{
-                font-size: 12rem;
+                font-size: 9rem;
             }
         }
 
         &_upText{
             white-space: nowrap;
             overflow: visible;
-            position: relative;
-            left: 20%;
-            transform: rotate(90deg);
-            padding-left: 5%;
-            margin-top: 20%;
+            top: 20%;
+            position: absolute;
+            text-align: left;
         }
 
         &_downText{
@@ -56,6 +57,17 @@
 
         &_workhour{
             text-align: center;
+        }
+
+        &_img{
+            display: flex;
+            align-items: flex-start;
+            img{
+                border-radius: 0.5rem;
+                object-fit: contain;
+                height: 100%;
+                width: 70%;
+            }
         }
     }
 

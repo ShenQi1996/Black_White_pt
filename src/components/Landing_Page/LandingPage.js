@@ -28,15 +28,15 @@ const LandingPage = ({ setLandingPage }) => {
             Sam.{" "}
           </a>
           I am a
-          <a onClick={handlelandingpage} href="#ITrain">
+          <a onClick={handlelandingpage} href="#Skills">
             {" "}
             developer and designer{" "}
           </a>
           for the web.
-          <a onClick={handlelandingpage} href="#footer">
+          {/* <a onClick={handlelandingpage} href="#Contact">
             {" "}
             Let's connect with me.{" "}
-          </a>
+          </a> */}
         </Col>
       </Row>
       <Row xs={4} className="mx-1 pt-2 LandingPage_footer">
@@ -65,12 +65,12 @@ const LandingPage = ({ setLandingPage }) => {
           </a>
           <a
             target="_blank"
-            href="https://www.instagram.com/sammysocial_qi/?hl=en"
+            href="https://github.com/ShenQi1996"
             rel="noreferrer"
           >
             <img
-              src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"
-              alt="IG"
+              src="https://img.icons8.com/ios/50/ffffff/github-2.png"
+              alt="Github"
             />
           </a>
           <a

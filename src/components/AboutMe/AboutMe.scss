@@ -1,5 +1,6 @@
 .AboutMe{
     overflow: hidden;
+    position: relative;
     h1{
         font-size: 6rem;
         text-transform: uppercase;
@@ -25,15 +26,15 @@
             }
         }
     }
-
-    &_big{
-        display: none;
+    &_small{
+        position: absolute;
+        top: 10%;
     }
 
     &_img{
-        margin-top: 2rem;
         align-items: flex-start;
         img{
+            border-radius: 0.5rem;
             object-fit: contain;
             height: 100%;
             width: 100%;
@@ -44,34 +45,15 @@
 @media only screen and (min-width: 768px) {
     .AboutMe{
         h1{
-            font-size: 12rem;
-        }
-        &_big{
-            display: flex;
-            transform: rotate(-90deg);
-            white-space: nowrap;
-            position: relative;
-            right: -5%;
-            span{
-                font-size: 12rem;
-                height: 2rem;
-                text-transform: uppercase;
-                font-family: 'Raleway', sans-serif;
-                font-weight: bolder;
-            }
-        }    
-
-
-        &_small{
-            display: none;
+            font-size: 9rem;
         }
     }
 }
 
 @media only screen and (min-width: 1024px){
     .AboutMe{
-        &_big{
-            right: -5%;
+        &_small{
+            right: 20%;
         }
         &_img{
             margin-top: 2rem;
