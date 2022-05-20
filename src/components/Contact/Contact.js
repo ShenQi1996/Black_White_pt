@@ -45,7 +45,7 @@ const Contact = () => {
                 <h3 className="my-4">
                   <span>-</span> Let's work togther
                 </h3>
-                <p>Mon to Fri from 5 pm to 7 pm</p>
+                <p>Mon to Fri from 10 am to 5 pm</p>
                 <p>Brooklyn, New York</p>
               </Container>
             </Col>

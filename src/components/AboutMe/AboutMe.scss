@@ -28,7 +28,7 @@
     }
     &_small{
         position: absolute;
-        top: 10%;
+        top: 7%;
     }
 
     &_img{
@@ -46,6 +46,10 @@
     .AboutMe{
         h1{
             font-size: 9rem;
+        }
+
+        &_small{
+            top: 10%;
         }
     }
 }
