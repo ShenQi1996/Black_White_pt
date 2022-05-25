@@ -5,6 +5,7 @@ import LandingPage from "./components/Landing_Page/LandingPage";
 import Home from "./components/Home/Home";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
+import Works from "./components/Works/Works";
 import Contact from "./components/Contact/Contact";
 
 //Bootstrap
@@ -19,6 +20,7 @@ function App() {
       {landingPage ? (
         <>
           <Home />
+          <Works />
           <AboutMe />
           <Skills />
           <Contact />
