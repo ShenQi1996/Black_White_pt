@@ -23,7 +23,17 @@ const Home = () => {
               <p>
                 When it comes to Web-Development.
                 <span> Don't work harder, work smarter.</span> Check out how I
-                do it.
+                do it.{" "}
+                <a
+                  href="https://docs.google.com/document/d/1Fc7jn9HGnB6pDHDO0snCIQeUU7JJnMJW/edit?usp=sharing&ouid=117373099643185244319&rtpof=true&sd=true"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://img.icons8.com/officel/40/ffffff/open-resume.png"
+                    alt="resume"
+                  />
+                </a>
               </p>
             </Container>
             <Container className="my-3 d-flex justify-content-center">

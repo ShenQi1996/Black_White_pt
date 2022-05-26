@@ -14,13 +14,8 @@ const Skills = () => {
         <Col xs={12} className="Skills_upText">
           <h1>Web Development skills</h1>
         </Col>
-        <Col
-          lg={{ span: 5, offset: 2 }}
-          md={{ span: 9, offset: 2 }}
-          xs={12}
-          id="Skills"
-        >
-          <Container>
+        <Col lg={12} md={12} xs={12}>
+          <Container className="text-center">
             <p>
               If you’re looking for a creative developer who knows how to build
               things that people love, look no further
@@ -31,7 +26,7 @@ const Skills = () => {
             </p>
           </Container>
         </Col>
-        <Col lg={3}>
+        <Col lg={12}>
           <Container className="d-flex flex-column">
             <a
               className="p-3 btn btn-dark  Skills_btn"
@@ -39,48 +34,49 @@ const Skills = () => {
               target="_blank"
               rel="noreferrer"
               role="button"
+              id="Skills"
             >
-              Learn More {`>`}
+              Resume {`>`}
             </a>
           </Container>
         </Col>
         <Col md={12}>
           <Container className="mt-5">
-            <Row className="gy-5 align-items-center text-center">
+            <Row className="gy-2 align-items-center text-center">
               <Col md={3} xs={4}>
                 <img
-                  src="https://img.icons8.com/ios-filled/100/000000/javascript.png"
+                  src="https://img.icons8.com/color/100/000000/javascript--v1.png"
                   alt="javascript"
                 />
               </Col>
               <Col md={3} xs={4}>
                 <img
-                  src="https://img.icons8.com/ios-filled/100/000000/html.png"
-                  alt="html"
+                  src="https://img.icons8.com/color/100/000000/html-5--v1.png"
+                  alt="HTML"
                 />
               </Col>
               <Col md={3} xs={4}>
                 <img
-                  src="https://img.icons8.com/ios-filled/100/000000/css.png"
-                  alt="css"
+                  src="https://img.icons8.com/color/100/000000/sass-avatar.png"
+                  alt="SASS"
                 />
               </Col>
               <Col md={3} xs={4}>
                 <img
-                  src="https://img.icons8.com/ios-filled/100/000000/react-native.png"
-                  alt="react"
+                  src="https://img.icons8.com/color/100/000000/react-native.png"
+                  alt="React"
                 />
               </Col>
               <Col md={6} xs={4}>
                 <img
-                  src="https://img.icons8.com/windows/96/000000/nodejs.png"
-                  alt="nodejs"
+                  src="https://img.icons8.com/color/100/000000/nodejs.png"
+                  alt="Nodejs"
                 />
               </Col>
               <Col md={6} xs={4}>
                 <img
-                  src="https://img.icons8.com/windows/96/000000/ruby-on-rails.png"
-                  alt="ruby-on-rails"
+                  src="https://img.icons8.com/fluency/100/000000/ruby-gemstone.png"
+                  alt="Ruby"
                 />
               </Col>
             </Row>

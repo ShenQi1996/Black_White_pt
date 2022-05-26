@@ -14,14 +14,14 @@ import "./Contact.scss";
 const Contact = () => {
   return (
     <Container className="Contact">
-      <Row className="gy-3">
+      <Row className="mt-5 gy-3">
         <Col
           data-aos="fade-right"
           data-aos-duration="1000"
           data-aos-easing="ease-in-sine"
-          md={12}
+          md={5}
           xs={12}
-          className="pt-5 Contact_upText"
+          className="Contact_upText"
         >
           <h1>Say - </h1>
         </Col>
@@ -29,7 +29,7 @@ const Contact = () => {
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-easing="ease-in-sine"
-          md={12}
+          md={7}
           xs={12}
           className="Contact_downText"
         >

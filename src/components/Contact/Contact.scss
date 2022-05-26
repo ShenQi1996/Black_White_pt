@@ -43,15 +43,14 @@
         &_upText{
             white-space: nowrap;
             overflow: visible;
-            top: 20%;
-            position: absolute;
-            text-align: left;
+            text-align: right;
         }
 
         &_downText{
             white-space: nowrap;
             overflow: visible;
-            margin-top: 10%;
+            position: relative;
+            top: 5rem;
             text-align: center;
         }
 
