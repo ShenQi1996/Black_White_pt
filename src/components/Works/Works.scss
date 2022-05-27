@@ -1,10 +1,38 @@
 .Works{
-    
     h1{
         font-size: 6rem;
         text-transform: uppercase;
         color: inherit;
         font-family: 'Raleway', sans-serif;
         font-weight: bolder;
+    }
+
+    &_btn{
+        text-transform: uppercase;
+        color: #F2ECFF;
+        border-radius: 2rem;
+        padding: 1rem;
+        font-size: smaller;
+        border-color: #F2ECFF;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .Works{
+        h1{
+            font-size: 20rem;
+            text-transform: uppercase;
+            color: inherit;
+            font-family: 'Raleway', sans-serif;
+            font-weight: bolder;
+        }
+
+        &_lastInf{
+            padding: 5rem;
+        }
+
+        &_info{
+            display: flex;
+        }
     }
 }

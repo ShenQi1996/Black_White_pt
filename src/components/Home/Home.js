@@ -10,7 +10,7 @@ import "./Home.scss";
 const Home = () => {
   return (
     <Container fluid className="home" id="Home">
-      <Col md={12} xs={12} className="mt-5 home_topText">
+      <Col md={12} xs={12} className="mb-5 home_topText">
         <h1>
           Some people want it to happen, some wish it would happen, others make
           it happen
@@ -33,6 +33,7 @@ const Home = () => {
                     src="https://img.icons8.com/officel/40/ffffff/open-resume.png"
                     alt="resume"
                   />
+                  <span>resume</span>
                 </a>
               </p>
             </Container>
@@ -88,18 +89,19 @@ const Home = () => {
               </p>
             </Container>
           </Col>
-          <Col md={8}>
-            <Container className="my-3 d-flex flex-column justify-content-center home_GITBtn">
-              <a
-                className="btn btn-outline-secondary"
-                href="https://calendly.com/qisam/meetingwithsam"
-                rel="noreferrer"
-                role="button"
-                target="_blank"
-              >
-                Get in Touch
-              </a>
-            </Container>
+          <Col
+            md={8}
+            className="my-5 d-flex flex-column justify-content-center home_GITBtn"
+          >
+            <a
+              className="btn btn-outline-secondary"
+              href="https://calendly.com/qisam/meetingwithsam"
+              rel="noreferrer"
+              role="button"
+              target="_blank"
+            >
+              Get in Touch
+            </a>
           </Col>
         </Row>
       </Container>

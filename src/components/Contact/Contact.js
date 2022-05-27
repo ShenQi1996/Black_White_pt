@@ -14,7 +14,7 @@ import "./Contact.scss";
 const Contact = () => {
   return (
     <Container className="Contact">
-      <Row className="mt-5 gy-3">
+      <Row className="mt-5">
         <Col
           data-aos="fade-right"
           data-aos-duration="1000"
