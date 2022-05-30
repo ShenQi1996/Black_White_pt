@@ -15,24 +15,10 @@ const Contact = () => {
   return (
     <Container className="Contact">
       <Row className="mt-5">
-        <Col
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-sine"
-          md={5}
-          xs={12}
-          className="Contact_upText"
-        >
+        <Col md={12} xs={12} className="Contact_upText">
           <h1>Say - </h1>
         </Col>
-        <Col
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-sine"
-          md={7}
-          xs={12}
-          className="Contact_downText"
-        >
+        <Col md={12} xs={12} className="Contact_downText">
           <h1>Hello</h1>
         </Col>
         <Row className="align-items-center">

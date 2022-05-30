@@ -15,9 +15,34 @@
         font-size: smaller;
         border-color: #F2ECFF;
     }
+    &_info{
+        
+        h2{
+            color: #CE7967;
+        }
+        h5{
+            font-size: smaller;
+        }
+    }
 }
 
 @media only screen and (min-width: 768px){
+    .Works{
+        h1{
+            font-size: 12rem;
+            text-transform: uppercase;
+            color: inherit;
+            font-family: 'Raleway', sans-serif;
+            font-weight: bolder;
+        }
+
+        &_info{
+            display: flex;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
     .Works{
         h1{
             font-size: 20rem;
@@ -27,9 +52,6 @@
             font-weight: bolder;
         }
 
-        &_lastInf{
-            padding: 5rem;
-        }
 
         &_info{
             display: flex;

@@ -16,7 +16,7 @@
             margin-bottom: 1rem;
         }
         p{
-            font-size: larger;
+            font-size: medium;
         }
     }
     &_btn{
@@ -26,11 +26,7 @@
             }
         }
     }
-    &_small{
-        position: absolute;
-        top: 7%;
-    }
-
+    
     &_img{
         align-items: flex-start;
         img{
@@ -45,19 +41,26 @@
 @media only screen and (min-width: 768px) {
     .AboutMe{
         h1{
-            font-size: 9rem;
+            font-size: 12rem;
         }
-
+        
         &_small{
-            top: 10%;
+            position: absolute;
+            transform: rotate(90deg);
+            top: 20%;
+            right: 5%;
+            white-space: nowrap;
         }
     }
 }
 
 @media only screen and (min-width: 1024px){
     .AboutMe{
+        h1{
+            font-size: 20rem;
+        }
         &_small{
-            right: 20%;
+            right: 15%;
         }
         &_img{
             margin-top: 2rem;

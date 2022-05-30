@@ -6,36 +6,18 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/esm/Container";
 
-//AOS
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 //style
 import "./AboutMe.scss";
 
 const AboutMe = () => {
-  AOS.init();
   return (
     <Container className="my-5 AboutMe">
       <Row className="gy-2">
-        <Col
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-sine"
-          lg={{ span: 8, offset: 1 }}
-          md={12}
-          xs={12}
-        >
+        <Col lg={10} md={10} xs={12}>
           <h1>About</h1>
         </Col>
-        <Col
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-sine"
-          xs={12}
-          className="text-end AboutMe_small"
-        >
-          <h1>- Me</h1>
+        <Col lg={2} md={2} xs={12} className="text-end AboutMe_small">
+          <h1>Me -</h1>
         </Col>
         <Col
           lg={{ span: 5, offset: 2 }}

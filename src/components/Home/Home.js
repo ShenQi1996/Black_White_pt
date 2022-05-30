@@ -33,7 +33,7 @@ const Home = () => {
                     src="https://img.icons8.com/officel/40/ffffff/open-resume.png"
                     alt="resume"
                   />
-                  <span>resume</span>
+                  <span className="home_midText_small">resume</span>
                 </a>
               </p>
             </Container>
