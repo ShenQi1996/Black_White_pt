@@ -20,7 +20,7 @@ const AboutMe = () => {
           <h1>Me -</h1>
         </Col>
         <Col
-          lg={{ span: 5, offset: 2 }}
+          lg={{ span: 4, offset: 2 }}
           md={{ span: 7, offset: 2 }}
           xs={12}
           className="d-flex flex-column p-4 AboutMe_img mt-3"

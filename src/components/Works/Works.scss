@@ -44,6 +44,7 @@
 
 @media only screen and (min-width: 1024px){
     .Works{
+
         h1{
             font-size: 20rem;
             text-transform: uppercase;
@@ -55,6 +56,17 @@
 
         &_info{
             display: flex;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .Works{
+        &_btn_last{
+            display: none;
+        }
+        &_top{
+            display: none;
         }
     }
 }

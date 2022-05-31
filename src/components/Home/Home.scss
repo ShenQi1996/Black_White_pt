@@ -39,9 +39,9 @@
     }
 
     &_stepsBox{
+        display: block;
         border-top: 1px #F2ECFF solid;
         h3{
-            margin-top: 1.5rem;
             color: #CE7967;
         }
         p{
@@ -49,15 +49,17 @@
             font-size: medium;
         }
     }
-
-    &_GITBtn{
-        a{
-            text-transform: uppercase;
-            font-size: smaller;
-            padding: 1rem;
-            color: #F2ECFF;
-            border-radius: 2rem;
-            border-color: #F2ECFF;
+    &_GITBtn_big{
+        text-transform: uppercase;
+        font-size: smaller;
+        padding: 1rem;
+        color: #F2ECFF;
+        border-radius: 2rem;
+        border-color: #F2ECFF;
+    }
+    &_stepsBox{
+        h3{
+            padding-top: 1rem;
         }
     }
 
@@ -86,12 +88,15 @@
 
         &_midText{
             text-align: start;
-            margin-top: 6rem !important
         }
 
         &_GITBtn{
             padding-left: 25%;
             padding-right: 25%;
+            &_big{
+                padding-left: 25%;
+                padding-right: 25%;
+            }
         }
     }
 
@@ -117,9 +122,6 @@
                 animation: movingTextStartTop3 60s infinite linear;
             }
         }
-        &_midText{
-            margin-top: 10rem !important
-        }
     }
 
     @keyframes movingTextStartTop3 {
@@ -140,6 +142,19 @@
         &_topText{
             h1{
                 animation: movingTextStartTop4 60s infinite linear;
+            }
+        }
+        &_GITBtn_big{
+            display: none;
+        }
+        &_stepsBox{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+        }
+        &_stepsBox{
+            h3{
+                padding-top: 0;
             }
         }
     }

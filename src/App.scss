@@ -10,4 +10,34 @@ $base-color: #F2ECFF;
     a{
         cursor: url(./images/icons8-left-click-50.png), pointer;
     }
+    .big_screen{
+        display: none;
+    }
+    .big_text{
+        font-size: 20rem;
+        text-transform: uppercase;
+        color: inherit;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+    }
+    &_GITBtn{
+        text-transform: uppercase;
+        font-size: smaller;
+        padding: 1rem;
+        color: #F2ECFF;
+        border-radius: 2rem;
+        border-color: #F2ECFF;
+    }
+}
+
+
+@media only screen and (min-width: 1200px){
+    .app{
+        .small_screen{
+            display: none;
+        }
+        .big_screen{
+            display: block;
+        }
+    }
 }
