@@ -17,7 +17,7 @@ const Home = () => {
         </h1>
       </Col>
       <Row>
-        <Col xl={10} md={8} className="d-flex flex-column mt-5">
+        <Col lg={8} md={8} className="d-flex flex-column mt-5">
           <Container className="home_midText">
             <p>
               When it comes to Web-Development.

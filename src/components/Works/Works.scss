@@ -46,7 +46,7 @@
     .Works{
 
         h1{
-            font-size: 20rem;
+            font-size: 16rem;
             text-transform: uppercase;
             color: inherit;
             font-family: 'Raleway', sans-serif;
@@ -62,9 +62,7 @@
 
 @media only screen and (min-width: 1200px){
     .Works{
-        &_btn_last{
-            display: none;
-        }
+
         &_top{
             display: none;
         }

@@ -21,8 +21,8 @@ function Works() {
           </Col>
         </Row>
       </Container>
-      <Row>
-        <Col md={4} xs={12} className="d-flex flex-column">
+      <Row className="g-5">
+        <Col md={6} xs={12} className="d-flex flex-column">
           <div className="AboutMe_img">
             <img
               src="https://media0.giphy.com/media/UycS8eZJxPpvO8Ecks/giphy.gif?cid=790b761199f10c99cb84089593a433d1114aa4e5f024a19e&rid=giphy.gif&ct=g"
@@ -47,7 +47,7 @@ function Works() {
             </Col>
           </Col>
         </Col>
-        <Col md={{ span: 5, offset: 1 }} xs={12} className="d-flex flex-column">
+        <Col md={6} xs={12} className="d-flex flex-column">
           <div className="AboutMe_img">
             <img
               src="https://user-images.githubusercontent.com/75746588/122280482-3cd71e00-ceb7-11eb-8255-d67dcaed112c.gif"
@@ -73,17 +73,17 @@ function Works() {
           </Col>
         </Col>
         <Col
-          lg={{ span: 6, offset: 3 }}
+          lg={{ span: 7, offset: 2 }}
           md={{ span: 9, offset: 1 }}
           xs={12}
-          className="d-flex flex-column Works_lastInf"
+          className="d-flex flex-column Works_lastInf my-5"
         >
-          <div className="AboutMe_img"></div>
-          <img
-            src="https://media4.giphy.com/media/poSiGOgWlvmYHkUFPD/giphy.gif?cid=790b76116b10d90dcf149a1b55d111f2e97852aafd81a42a&rid=giphy.gif&ct=g"
-            alt=""
-          />
-          <div className="AboutMe_img"></div>
+          <div className="AboutMe_img">
+            <img
+              src="https://media4.giphy.com/media/poSiGOgWlvmYHkUFPD/giphy.gif?cid=790b76116b10d90dcf149a1b55d111f2e97852aafd81a42a&rid=giphy.gif&ct=g"
+              alt=""
+            />
+          </div>
           <Col className="align-item-center Works_info">
             <Col md={8} xs={12}>
               <h2 className="pt-3 mb-0 ">PixelPerfect</h2>
@@ -105,10 +105,10 @@ function Works() {
         <Col
           md={{ span: 4, offset: 4 }}
           xs={12}
-          className="d-flex flex-column mb-5"
+          className="d-flex flex-column mt-5"
         >
           <a
-            className="btn btn-outline-secondary Works_btn_last"
+            className="btn btn-outline-secondary Works_btn"
             href="https://github.com/ShenQi1996?tab=repositories"
             target="_blank"
             rel="noreferrer"

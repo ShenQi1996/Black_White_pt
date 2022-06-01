@@ -6,29 +6,47 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/esm/Container";
 
+//AOS
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 //style
 import "./AboutMe.scss";
 
 const AboutMe = () => {
+  AOS.init();
   return (
-    <Container className="my-5 AboutMe">
+    <Container className="my-5 text-center AboutMe">
       <Row className="gy-2">
-        <Col lg={10} md={10} xs={12}>
+        <Col
+          lg={12}
+          md={12}
+          xs={12}
+          data-aos="fade-left"
+          data-aos-duration="500"
+        >
           <h1>About</h1>
         </Col>
-        <Col lg={2} md={2} xs={12} className="text-end AboutMe_small">
+        <Col
+          lg={12}
+          md={12}
+          xs={12}
+          data-aos="fade-right"
+          data-aos-duration="500"
+          className="text-center AboutMe_small"
+        >
           <h1>Me -</h1>
         </Col>
         <Col
-          lg={{ span: 4, offset: 2 }}
+          lg={4}
           md={{ span: 7, offset: 2 }}
           xs={12}
-          className="d-flex flex-column p-4 AboutMe_img mt-3"
+          className="d-flex flex-column  AboutMe_img"
         >
           <img src={profile} alt="Sam Qi" />
         </Col>
-        <Col lg={7} md={{ span: 9, offset: 2 }} xs={12}>
-          <Container className="AboutMe_info" id="AboutMe">
+        <Col lg={5} md={{ span: 9, offset: 1 }} xs={12}>
+          <Container className="AboutMe_info pt-5 text-start" id="AboutMe">
             <h2>Shen(Sam) Qi</h2>
             <h5>Web Developer / Designer</h5>
             <p>
@@ -44,7 +62,7 @@ const AboutMe = () => {
             </p>
           </Container>
         </Col>
-        <Col md={{ span: 6, offset: 3 }} xs={12}>
+        <Col md={{ span: 6, offset: 2 }} xs={12}>
           <Container className="my-5 d-flex justify-content-evenly AboutMe_btn">
             <a
               target="_blank"

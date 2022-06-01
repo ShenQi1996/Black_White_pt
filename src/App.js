@@ -64,26 +64,7 @@ function App() {
               </Row>
             </Container>
           </ScrollPage>
-          <Container>
-            <Col
-              md={{ span: 4, offset: 4 }}
-              xs={12}
-              className="d-flex flex-column mb-5"
-            >
-              <a
-                className="btn btn-outline-secondary Works_btn"
-                href="https://github.com/ShenQi1996?tab=repositories"
-                target="_blank"
-                rel="noreferrer"
-                role="button"
-              >
-                View more Projects {`>`}
-              </a>
-            </Col>
-          </Container>
-          <ScrollPage page={2}>
-            <Works />
-          </ScrollPage>
+          <Works />
           <AboutMe />
           <Skills />
           <Contact />
